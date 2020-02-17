@@ -10,4 +10,6 @@ pre {
     background-color: lightblue;
     padding: 10px;
 }
-
+img {
+    width: 100px;
+}
