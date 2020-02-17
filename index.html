@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Vadim Shatalov  Resume</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My CV</h1>
+    </header>
+    <main>
+        <section id="main_info">
+            <h3>Main Info</h3>
+            <p>Vadim Shatalov</p>
+        </section>
+        <section id="contacts">
+            <h3>Contacts</h3>
+            <dl>
+                <dt>Email</dt>
+                <dd>vadimshatalov@gmail.com</dd>
+
+                <dt>Telegram</dt>
+                <dd>@netpastor</dd>
+
+                <dt>Skype</dt>
+                <dd>shatalovvadim</dd>
+            </dl>
+        </section>
+        <section id="about">
+            <h3>About</h3>
+            <p>I'm Python developer. I'm interested in this course cause I want to be Full Stask Developer.</p>
+        </section>
+        <section id="skills">
+            <h3>Skills</h3>
+            <p>Python, Django, Javascript basics, JQuery, PostgreSql, Git, TDD, Agile, Scrum, PyCharm, Docker...</p>
+        </section>
+        <section id="code_examples">
+            <h3>Code examples</h3>
+            <pre>
+            def get_queryset(self):
+                if getattr(self.request.user, 'company', None):
+                    return self.request.user.company.categories
+
+                if self.request.session.get('orderpoint_uuid', None) is not None:
+                    orderpoint_uuid = self.request.session['orderpoint_uuid']
+                    try:
+                        orderpoint = OrderPoint.objects.get(uuid=orderpoint_uuid)
+                        return ProductCategory.objects.filter(company=orderpoint.company)
+                    except OrderPoint.DoesNotExist:
+                        raise OrderPointDoesNotExist()
+                return ProductCategory.objects.none()
+            </pre>
+        </section>
+        <section id="experience">
+            <h3>Experience</h3>
+            <p>I have more than 25 years experience in IT, last 10 years I'm developing on Python, there was web-development mostly</p>
+        </section>
+        <section id="education">
+            <h3>Education</h3>
+            <p>I graduated Togliatty Politechnical Institute, faculty Machine Building Automation.</p>
+        </section>
+        <section id="english">
+            <h3>English</h3>
+            <p>My level is B1</p>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
+
+

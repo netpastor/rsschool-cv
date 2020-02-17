@@ -1,0 +1,13 @@
+header{
+    padding: 10px;
+}
+body {
+    width: 1024px;
+    font-family: "Verdana", sans-serif;
+    background-color: lavender;
+}
+pre {
+    background-color: lightblue;
+    padding: 10px;
+}
+
