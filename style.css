@@ -1,0 +1,22 @@
+header{
+    padding: 10px;
+}
+body {
+    font-family: "Verdana", sans-serif;
+    background-color: lavender;
+}
+pre {
+    background-color: lightblue;
+    padding: 10px;
+}
+img {
+    width: 100px;
+    border-radius: 20px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
+}
